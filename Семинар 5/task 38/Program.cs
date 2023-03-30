@@ -61,7 +61,7 @@ PrintArray(array);
 double getMinElem = GetMinElem(array);
 double getMaxElem = GetMaxElem(array);
 
-double sum = Math.Round(getMaxElem + getMinElem);
+double diff = Math.Round(getMaxElem - getMinElem);
 Console.WriteLine($"Минимальный элемент = {getMinElem:F1}");
 Console.WriteLine($"Максимальный элемент = {getMaxElem:F1}");
-Console.WriteLine($"Сумма минимального и максимального элемента массива = {sum}");
+Console.WriteLine($"Сумма минимального и максимального элемента массива = {diff:F1}");
